@@ -6,8 +6,15 @@ from patent_search import search_patents
 from result_filter import filter_relevant_patents
 
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-PATENT_FILE = os.path.join(DATA_DIR, "patent_results.json")
+DATA_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(__file__)),
+    "data"
+)
+
+PATENT_FILE = os.path.join(
+    DATA_DIR,
+    "patent_results.json"
+)
 
 
 def save_patents(patents):
@@ -16,7 +23,12 @@ def save_patents(patents):
     os.makedirs(DATA_DIR, exist_ok=True)
 
     with open(PATENT_FILE, "w", encoding="utf-8") as file:
-        json.dump(patents, file, indent=4, ensure_ascii=False)
+        json.dump(
+            patents,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
 
 
 def load_patents():
@@ -29,23 +41,12 @@ def load_patents():
         return json.load(file)
 
 
-def build_patent_landscape(idea):
+def search_and_cache_patents(idea):
     """
-    Build patent landscape.
+    Search patents using SerpApi and save the results locally.
 
-    If local patent data already exists, use it.
-    Otherwise, perform SerpApi searches once and save the results.
+    This function makes actual API calls.
     """
-
-    # Check local cache first
-    cached_patents = load_patents()
-
-    if cached_patents is not None:
-        print("📂 Loading patents from local JSON...")
-        return cached_patents
-
-    print("🌐 No local patent data found.")
-    print("🔎 Searching SerpApi for patents...")
 
     queries = generate_patent_queries(idea)
 
@@ -53,16 +54,19 @@ def build_patent_landscape(idea):
 
     for query in queries:
 
-        print(f"\nSearching: {query}")
+        print(f"\n🔎 Searching SerpApi: {query}")
 
-        patents = search_patents(query, limit=10)
+        patents = search_patents(
+            query,
+            limit=10
+        )
 
         for patent in patents:
             patent["search_query"] = query
 
         all_patents.extend(patents)
 
-    # Deduplicate using patent ID
+    # Remove duplicate patents using patent ID
     unique_patents = {}
 
     for patent in all_patents:
@@ -74,35 +78,93 @@ def build_patent_landscape(idea):
 
     patents = list(unique_patents.values())
 
-    # Save raw patent data locally
     save_patents(patents)
 
-    print(f"\n💾 Saved {len(patents)} unique patents to:")
+    print(
+        f"\n💾 Saved {len(patents)} unique patents to:"
+    )
     print(PATENT_FILE)
 
     return patents
 
 
+def get_patent_data(idea):
+    """
+    Get patent data.
+
+    Use cached data if available.
+    Otherwise perform a SerpApi search.
+    """
+
+    cached_patents = load_patents()
+
+    if cached_patents is not None:
+
+        print("📂 Loading patents from local JSON...")
+
+        return cached_patents
+
+    print("🌐 No local patent data found.")
+
+    return search_and_cache_patents(idea)
+
+
+def build_patent_landscape(idea):
+    """
+    Build a ranked patent landscape
+    using locally available patent data.
+    """
+
+    # Get patent data
+    patents = get_patent_data(idea)
+
+    # Generate queries for transparency/debugging
+    queries = generate_patent_queries(idea)
+
+    print("\n" + "=" * 60)
+    print("GENERATED SEARCH QUERIES")
+    print("=" * 60)
+
+    for i, query in enumerate(queries, start=1):
+        print(f"{i}. {query}")
+
+    # Filter and rank patents
+    relevant_patents = filter_relevant_patents(patents)
+
+    return relevant_patents
+
+
 if __name__ == "__main__":
 
-    idea = "pothole detection using smartphone camera and GPS"
+    idea = "AI system for detecting potholes using smartphone camera and GPS"
 
-    patents = build_patent_landscape(idea)
+    relevant_patents = build_patent_landscape(idea)
 
     print("\n" + "=" * 60)
     print("PATENT LANDSCAPE")
     print("=" * 60)
 
-    relevant_patents = filter_relevant_patents(patents)
+    print(
+        f"\nRelevant patents found: "
+        f"{len(relevant_patents)}"
+    )
 
-    print(f"\nRelevant patents found: {len(relevant_patents)}")
-    print("Showing top 10 most relevant patents:\n")
+    print("\nShowing top 10 most relevant patents:\n")
 
-    for i, patent in enumerate(relevant_patents[:10], start=1):
+    for i, patent in enumerate(
+        relevant_patents[:10],
+        start=1
+    ):
 
         print(f"{i}. {patent['title']}")
         print(f"   Patent ID: {patent['patent_id']}")
-        print(f"   Relevance Score: {patent['relevance_score']}")
-        print(f"   Matched Keywords: {', '.join(patent['matched_keywords'])}")
+        print(
+            f"   Relevance Score: "
+            f"{patent['relevance_score']}"
+        )
+        print(
+            f"   Matched Keywords: "
+            f"{', '.join(patent['matched_keywords'])}"
+        )
         print(f"   Link: {patent['link']}")
-        print()
+        print("-" * 60)

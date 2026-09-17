@@ -1,0 +1,247 @@
+[
+    {
+        "title": "Fire point positioning method, device and system based on unmanned aerial …",
+        "patent_id": "patent/CN111982291B/en",
+        "link": "https://patents.google.com/patent/CN111982291B/en",
+        "snippet": "The embodiment of the invention provides a fire point positioning method, a fire point positioning device and a fire point positioning system based on an unmanned aerial vehicle, which relate to the technical field of unmanned aerial vehicle monitoring, and the method comprises the following steps …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Mobile device edge view display insert",
+        "patent_id": "patent/US9451062B2/en",
+        "link": "https://patents.google.com/patent/US9451062B2/en",
+        "snippet": "A mobile communication device may include one or more cameras located on edges of the mobile communication device. The mobile communication device may further include logic configured to obtain image data from at least one of the one or more cameras; detect a change in an environment of the mobile …",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Eye vergence detection on a display",
+        "patent_id": "patent/EP2891953B1/en",
+        "link": "https://patents.google.com/patent/EP2891953B1/en",
+        "snippet": "A method for displaying an image on a transparent display based on eye vergence, the method comprising a processor: computing, based on sensor data associated with eyes of a user and acquired by at least one sensor, eye gaze vectors (210) associated with the eyes of the user; determining a first …",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Vehicle-mounted camera calibration method and device, vehicle and storage …",
+        "patent_id": "patent/CN109389650B/en",
+        "link": "https://patents.google.com/patent/CN109389650B/en",
+        "snippet": "The present application discloses a method, device, vehicle and storage medium for calibrating a vehicle-mounted camera. The method includes: acquiring image data including lane lines collected by a vehicle-mounted camera; determining a ROI area including the lane line in the original image;",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Unauthorized viewer detection system and method",
+        "patent_id": "patent/US10469830B2/en",
+        "link": "https://patents.google.com/patent/US10469830B2/en",
+        "snippet": "A system for detecting and responding to an intruding camera. The system includes an electronic media display device having a screen configured to display content, a sensor, and a processing circuit. The processing circuit is configured to obtain information from the sensor, analyze the …",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Information display system including transmission type HMD, non-transitory …",
+        "patent_id": "patent/US9400554B2/en",
+        "link": "https://patents.google.com/patent/US9400554B2/en",
+        "snippet": "Provided are an information display system, a non-transitory computer-readable storage medium, and a display control method. The information display system includes a transmission type head-mounted display and a control section. The control section includes a gaze point detecting section …",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Method and apparatus for generating an all-in-focus image",
+        "patent_id": "patent/KR102126300B1/en",
+        "link": "https://patents.google.com/patent/KR102126300B1/en",
+        "snippet": "Method and apparatus for generating an all-in-focus image {METHOD AND APPARATUS FOR GENERATING AN ALL-IN-FOCUS IMAGE} [0001] The present disclosure relates generally to capturing and processing digital images, and in particular, to generating an all-in-focus image using the ability to refocus.",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Fire monitoring method and apparatus",
+        "patent_id": "patent/CN106558181B/en",
+        "link": "https://patents.google.com/patent/CN106558181B/en",
+        "snippet": "The invention discloses a fire monitoring method and device. Wherein, the method includes: acquiring an infrared image captured by an infrared detection device located on the aerostat of an area to be monitored, wherein different colors displayed in the infrared image correspond to different …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Electronic apparatus and control method thereof",
+        "patent_id": "patent/KR102578517B1/en",
+        "link": "https://patents.google.com/patent/KR102578517B1/en",
+        "snippet": "An electronic device mounted on a vehicle is disclosed. The electronic device includes an output unit for outputting operation information of the moving object, a sensor for detecting the gaze of the user riding the moving object, and, if the location on the plane of the detected gaze falls within …",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "Generating an augmented view of a location of interest",
+        "patent_id": "patent/US9639968B2/en",
+        "link": "https://patents.google.com/patent/US9639968B2/en",
+        "snippet": "One embodiment of the present invention sets forth a technique for generating an augmented view of a location of interest for a user. The technique includes determining an image capture location based on the location of interest, and determining an image capture direction based on the image …",
+        "search_query": "pothole detection using smartphone camera and GPS computer vision"
+    },
+    {
+        "title": "A kind of vision inspection apparatus and method, especially Packaging Bottle …",
+        "patent_id": "patent/CN107525811A/en",
+        "link": "https://patents.google.com/patent/CN107525811A/en",
+        "snippet": "The invention provides a kind of vision inspection apparatus and method, especially Packaging Bottle visible detection method, including：Camera, detect product, processor；The camera sets at least three in the detection product peripheral, and camera is connected to processor.The present invention …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "A method of evaluation and notification of fire determined by using photos …",
+        "patent_id": "patent/WO2024210869A1/en",
+        "link": "https://patents.google.com/patent/WO2024210869A1/en",
+        "snippet": "The invention relates to a method for calculating the coordinate information of the point where a fire is detected on a photograph taken in the field with a portable device camera, transmitting the coordinates found and the images taken to the nearest main centre point and visualising them on a …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Pot hole search system and pot hole search method using the same",
+        "patent_id": "patent/KR102850665B1/en",
+        "link": "https://patents.google.com/patent/KR102850665B1/en",
+        "snippet": "A pothole detection system includes a pothole detection unit that recognizes a change in the rear posture of a front vehicle based on an image captured by a camera unit, the pothole detection unit includes a vehicle posture measurement unit that recognizes the rear posture of the front vehicle …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "System and method for providing road status information",
+        "patent_id": "patent/KR102167291B1/en",
+        "link": "https://patents.google.com/patent/KR102167291B1/en",
+        "snippet": "A system and method for collecting road condition information are provided. The road condition information collection device first analyzes the front road surface image generated by photographing the front of the driving vehicle and predicts whether the road surface is abnormal, filters the front …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "Travel data collection and publication",
+        "patent_id": "patent/US10317240B1/en",
+        "link": "https://patents.google.com/patent/US10317240B1/en",
+        "snippet": "Travel data may be gathered and published on a global map for use by various entities. The travel data may be captured by one or more vehicle computing devices, such as those associated with the operation and/or control of a vehicle. The vehicle computing devices may receive input from one or more …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "System and method to detect road anomalies",
+        "patent_id": "patent/US20250292541A1/en",
+        "link": "https://patents.google.com/patent/US20250292541A1/en",
+        "snippet": "A system and a non-transitory computer-readable storage medium for executing a method of detecting road anomalies is disclosed. The method includes obtaining a live feed from an end computing device in a vehicle travelling on a road using a camera associated with the end computing device, and …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "Priority determination device and computer program",
+        "patent_id": "patent/JP2021025242A/en",
+        "link": "https://patents.google.com/patent/JP2021025242A/en",
+        "snippet": "To provide a priority determination device and computer program capable of more stable priority determination by reducing artificial evaluation and suppressing fluctuations in priority to handle road abnormalities.SOLUTION: A server device 3 acquires the number of days from discovery of a road …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "Methods and systems for estimating distance of an object from a moving vehicle",
+        "patent_id": "patent/US10529083B2/en",
+        "link": "https://patents.google.com/patent/US10529083B2/en",
+        "snippet": "A method for estimating distance of an object from a moving vehicle is provided. The method includes detecting, by a camera module in one or more image frames, an object on a road on which the vehicle is moving. The method includes electronically determining a pair of lane markings associated with …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "Method, apparatus, and system for providing image labeling for cross view …",
+        "patent_id": "patent/EP3660737B1/en",
+        "link": "https://patents.google.com/patent/EP3660737B1/en",
+        "snippet": "A computer-implemented method for labeling images for cross view alignment comprising: determining camera pose data for a first image (607a-d) depicting an area from a first perspective view and for a second image (601) depicting the area from a second perspective view using a pointing direction …",
+        "search_query": "pothole detection using smartphone camera and GPS machine learning"
+    },
+    {
+        "title": "Using aerial imaging to provide supplemental information about a location",
+        "patent_id": "patent/US9948898B2/en",
+        "link": "https://patents.google.com/patent/US9948898B2/en",
+        "snippet": "Aerial images, such as images from satellites or other aerial imaging devices, may be used to assist in responding to the occurrence of events (such as vehicle accidents or other emergency events) or conditions. In one implementation, an alert may be received indicating a condition or event …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Mobile based personal content protection apparatus and method therefor",
+        "patent_id": "patent/KR20180066722A/en",
+        "link": "https://patents.google.com/patent/KR20180066722A/en",
+        "snippet": "The present invention relates to an apparatus and method for equipping a user to set up a mobile terminal and to photograph and use personal contents through a camera included in a mobile terminal by another user, A personal content detection unit, and a personal contents masking unit, estimates a …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Porthole detection notification system using smart phones",
+        "patent_id": "patent/KR20160002909U/en",
+        "link": "https://patents.google.com/patent/KR20160002909U/en",
+        "snippet": "This design is a risk reporting system designed to inform the potholes on the roads and to operate safely by removing dangerous elements in advance. For this purpose, a single high-resolution camera built in a smart phone captures a porthole image on the road and a background image that can …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "System and method for alerting government representatives to citizen issues",
+        "patent_id": "patent/US20140324442A1/en",
+        "link": "https://patents.google.com/patent/US20140324442A1/en",
+        "snippet": "A system for alerting government representatives to citizen issues, including a user interface; a wireless communications module; a processor; and a tangible non-transitory computer-readable memory having instructions, that when executed by the processor, cause the processor to perform the steps …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Digital camera",
+        "patent_id": "patent/JP2004056627A/en",
+        "link": "https://patents.google.com/patent/JP2004056627A/en",
+        "snippet": "When taking a picture using a digital camera, only a user having a specific condition can take a picture at a specific place. A position detection means 10 detects the position of a digital camera 1 itself. Thereafter, the determination unit 20 determines whether or not the detected position of …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Method and system for assessing damage to infrastructure",
+        "patent_id": "patent/US11676258B1/en",
+        "link": "https://patents.google.com/patent/US11676258B1/en",
+        "snippet": "A method and system may survey a property using aerial images captured from an unmanned aerial vehicle (UAV), a manned aerial vehicle (MAV) or from a satellite device. The method may include identifying a commercial property for a UAV to perform surveillance, and directing the UAV to hover over …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Detection device, road surface information system, and vehicle",
+        "patent_id": "patent/JP6369654B2/en",
+        "link": "https://patents.google.com/patent/JP6369654B2/en",
+        "snippet": "A detection device mounted on a moving body that moves on a road surface, A detection unit for detecting an impact in the moving body; An imaging unit for imaging a road surface behind the moving body in the moving direction; A control unit for controlling the operation of the imaging unit, The …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Localizing a smartphone in a moving vehicle",
+        "patent_id": "patent/US9888364B2/en",
+        "link": "https://patents.google.com/patent/US9888364B2/en",
+        "snippet": "A method and apparatus for localizing a smartphone is disclosed. A plurality of lateral position samples of the smartphone based at least in part on a plurality of location coordinates, lane marking information and accuracy factors of the plurality of location coordinates are collected at a …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Method and system for checking the conditions of a road network",
+        "patent_id": "patent/WO2018020472A1/en",
+        "link": "https://patents.google.com/patent/WO2018020472A1/en",
+        "snippet": "The present invention relates to a method of monitoring the road network conditions, in which stresses are detected on traveling vehicles (V) induced by road surface irregularities, such as bumps, potholes, obstacles or the like. Stresses higher than a threshold level in a given point (P) of the …",
+        "search_query": "pothole detection using smartphone camera and GPS smartphone"
+    },
+    {
+        "title": "Video collection system, video collection server, video collection method, and …",
+        "patent_id": "patent/US11076131B2/en",
+        "link": "https://patents.google.com/patent/US11076131B2/en",
+        "snippet": "A video collection system includes: a plurality of terminals; and a video collection server that requests at least one of the plurality of terminals to perform information provision. The video collection server includes a calculation part, a determination part, and a request part. The calculation …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Video security system based on gps location information and method thereof",
+        "patent_id": "patent/KR102458961B1/en",
+        "link": "https://patents.google.com/patent/KR102458961B1/en",
+        "snippet": "The present invention relates to a video security system and method based on GPS location information. The image security system of the present invention is installed in a movable body that can move using power of a vehicle, train, ship, military equipment, and the like. The image security system …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Prevention of driver distraction",
+        "patent_id": "patent/JP6328671B2/en",
+        "link": "https://patents.google.com/patent/JP6328671B2/en",
+        "snippet": "Processing an image captured in a vehicle by a mobile device to identify a seat belt in the image; Determining the inclination of the seat belt relative to a horizontal line, wherein the horizontal line is determined using information regarding the position and orientation of the mobile device …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Method, server, system, and image capturing device for surveillance",
+        "patent_id": "patent/EP3297275B1/en",
+        "link": "https://patents.google.com/patent/EP3297275B1/en",
+        "snippet": "A monitoring method, wherein the method is applied in a monitoring server (001), the monitoring server (001) being connected with at least one image acquisition device (002), each image acquisition device (002) comprising: an image capturing module (003) and a first wireless fidelity (WiFi) …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Methods of enforcing privacy requests in imaging systems",
+        "patent_id": "patent/US9350914B1/en",
+        "link": "https://patents.google.com/patent/US9350914B1/en",
+        "snippet": "An imaging system may capture image data and use the captured image data to detect a privacy request. Depending on the specific privacy request, the imaging system may delete or blur the captured image to comply with the detected privacy request. The imaging system may use face recognition …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Recording control device, recording control method, and program",
+        "patent_id": "patent/JP2021118499A/en",
+        "link": "https://patents.google.com/patent/JP2021118499A/en",
+        "snippet": "A recording control device capable of protecting the privacy of a specific location is provided. A position information acquisition unit 40 acquires position information indicating the position of a mobile object. The event information acquisition unit 50 acquires event information indicating that …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    },
+    {
+        "title": "Pan-tilt camera control method, system and device",
+        "patent_id": "patent/CN103841313A/en",
+        "link": "https://patents.google.com/patent/CN103841313A/en",
+        "snippet": "The invention discloses a pan-tilt camera control method, system and equipment, belonging to the field of video monitoring. The method includes: detecting whether there is a target object in the image collected by the pan-tilt camera; if the target object is detected, calculating the Adjustment …",
+        "search_query": "pothole detection using smartphone camera and GPS detection system"
+    }
+]

@@ -1,0 +1,268 @@
+[
+    {
+        "title": "A real-time automatic pavement crack and pothole recognition system for mobile Android-based devices",
+        "publication_info": {
+            "summary": "A Tedeschi, F Benedetto - Advanced Engineering Informatics, 2017 - Elsevier",
+            "authors": [
+                {
+                    "name": "A Tedeschi",
+                    "link": "https://scholar.google.com/citations?user=WV9vIOIAAAAJ&hl=en&oi=sra",
+                    "author_id": "WV9vIOIAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=WV9vIOIAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "F Benedetto",
+                    "link": "https://scholar.google.com/citations?user=5901mCIAAAAJ&hl=en&oi=sra",
+                    "author_id": "5901mCIAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5901mCIAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… about the date and the GPS location provided in a report for … sends them to the pothole detection algorithm. The algorithm … the authors exploit two cameras mounted in parallel onto the …",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1474034616301197",
+        "result_id": "VGrf7YYPbv4J"
+    },
+    {
+        "title": "Smartphone-based pothole detection utilizing artificial neural networks",
+        "publication_info": {
+            "summary": "C Kyriakou, SE Christodoulou… - Journal of Infrastructure …, 2019 - ascelibrary.org",
+            "authors": [
+                {
+                    "name": "C Kyriakou",
+                    "link": "https://scholar.google.com/citations?user=i8-DGToAAAAJ&hl=en&oi=sra",
+                    "author_id": "i8-DGToAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=i8-DGToAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "SE Christodoulou",
+                    "link": "https://scholar.google.com/citations?user=BWAViRYAAAAJ&hl=en&oi=sra",
+                    "author_id": "BWAViRYAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BWAViRYAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… , to gather data and identify potholes in the roadway network by use of GPS, wireless fidelity (… The aforementioned camera-based pothole-detection method was subsequently extended …",
+        "link": "https://ascelibrary.org/doi/abs/10.1061/(ASCE)IS.1943-555X.0000489",
+        "result_id": "wUIFZRUggjQJ"
+    },
+    {
+        "title": "Deep learning approach to detect potholes in real-time using smartphone",
+        "publication_info": {
+            "summary": "S Silvister, D Komandur, S Kokate… - 2019 IEEE pune …, 2019 - ieeexplore.ieee.org",
+            "authors": [
+                {
+                    "name": "S Silvister",
+                    "link": "https://scholar.google.com/citations?user=oxAfbjAAAAAJ&hl=en&oi=sra",
+                    "author_id": "oxAfbjAAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=oxAfbjAAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "D Komandur",
+                    "link": "https://scholar.google.com/citations?user=DFaYVUkAAAAJ&hl=en&oi=sra",
+                    "author_id": "DFaYVUkAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=DFaYVUkAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "S Kokate"
+                }
+            ]
+        },
+        "snippet": "… for pothole detection is distinct from the prior works: (a) Two-fold cross verification mechanism ie Camera… then co-ordinates of the location are fetched from the app using GPS and are …",
+        "link": "https://ieeexplore.ieee.org/abstract/document/9105737/",
+        "result_id": "i34gf7LKqJoJ"
+    },
+    {
+        "title": "Real-time pothole detection using deep learning",
+        "publication_info": {
+            "summary": "AA Shaghouri, R Alkhatib, S Berjaoui - arXiv preprint arXiv:2107.06356, 2021 - arxiv.org",
+            "authors": [
+                {
+                    "name": "AA Shaghouri"
+                },
+                {
+                    "name": "R Alkhatib",
+                    "link": "https://scholar.google.com/citations?user=yMROKdIAAAAJ&hl=en&oi=sra",
+                    "author_id": "yMROKdIAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=yMROKdIAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "S Berjaoui"
+                }
+            ]
+        },
+        "snippet": "… along with the pothole GPS and the time of its detection. The … of a smartphone are used for pothole detection [35]. Inception … the “Pothole Detection System Using A Black-box Camera” […",
+        "link": "https://arxiv.org/abs/2107.06356",
+        "result_id": "XYqsRjRqV_MJ"
+    },
+    {
+        "title": "Sustainable road pothole detection: A crowdsourcing based multi-sensors fusion approach",
+        "publication_info": {
+            "summary": "H Xin, Y Ye, X Na, H Hu, G Wang, C Wu, S Hu - Sustainability, 2023 - mdpi.com",
+            "authors": [
+                {
+                    "name": "H Xin"
+                },
+                {
+                    "name": "Y Ye"
+                },
+                {
+                    "name": "X Na",
+                    "link": "https://scholar.google.com/citations?user=qPZyPZQAAAAJ&hl=en&oi=sra",
+                    "author_id": "qPZyPZQAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qPZyPZQAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "H Hu"
+                },
+                {
+                    "name": "G Wang",
+                    "link": "https://scholar.google.com/citations?user=GhsXNiwAAAAJ&hl=en&oi=sra",
+                    "author_id": "GhsXNiwAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GhsXNiwAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "C Wu",
+                    "link": "https://scholar.google.com/citations?user=gpTPt58AAAAJ&hl=en&oi=sra",
+                    "author_id": "gpTPt58AAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gpTPt58AAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "S Hu",
+                    "link": "https://scholar.google.com/citations?user=p_6A6ycAAAAJ&hl=en&oi=sra",
+                    "author_id": "p_6A6ycAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=p_6A6ycAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… of road detection using the built-in sensors of smartphones has … In this module, only the acceleration data, GPS, and … used to identify the potholes, so we used a camera to record the …",
+        "link": "https://www.mdpi.com/2071-1050/15/8/6610",
+        "result_id": "isBeyUSF5AsJ"
+    },
+    {
+        "title": "Smart pothole detection and mapping system",
+        "publication_info": {
+            "summary": "R Borgalli - Journal of Ubiquitous Computing and Communication …, 2020 - academia.edu",
+            "authors": [
+                {
+                    "name": "R Borgalli",
+                    "link": "https://scholar.google.com/citations?user=8gzkafsAAAAJ&hl=en&oi=sra",
+                    "author_id": "8gzkafsAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8gzkafsAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… for potholes detection and mapping then using Android App … images through camera and process it to detect potholes and … through GPS and then accesses the locations of potholes …",
+        "link": "https://www.academia.edu/download/85906729/03.pdf",
+        "result_id": "-Q2YpoASLekJ"
+    },
+    {
+        "title": "A smart app for pothole detection using Yolo model",
+        "publication_info": {
+            "summary": "R Hiremath, K Malshikare, M Mahajan… - ICT Analysis and …, 2020 - Springer",
+            "authors": [
+                {
+                    "name": "R Hiremath"
+                },
+                {
+                    "name": "K Malshikare"
+                },
+                {
+                    "name": "M Mahajan",
+                    "link": "https://scholar.google.com/citations?user=w_e_0vMAAAAJ&hl=en&oi=sra",
+                    "author_id": "w_e_0vMAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=w_e_0vMAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… camera and GPS sensors. Here, we are using “YOLO object … roads, and number of potholes detected in one image or area. … an android app, which is easy to use smart way to detect the …",
+        "link": "https://link.springer.com/chapter/10.1007/978-981-15-8354-4_16",
+        "result_id": "7AnX1JXnfDAJ"
+    },
+    {
+        "title": "A pothole can be seen with two eyes: an ensemble approach to pothole detection",
+        "publication_info": {
+            "summary": "A Patawar, M Mehdi, B Kore, P Saval - Machine Vision and Applications, 2025 - Springer",
+            "authors": [
+                {
+                    "name": "A Patawar",
+                    "link": "https://scholar.google.com/citations?user=1dXLrSEAAAAJ&hl=en&oi=sra",
+                    "author_id": "1dXLrSEAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1dXLrSEAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "M Mehdi"
+                },
+                {
+                    "name": "B Kore"
+                },
+                {
+                    "name": "P Saval"
+                }
+            ]
+        },
+        "snippet": "… using 2D LiDAR and cameras for pothole detection. Two 2D … the custom data collection Android application developed for … , it is recorded in the database with the corresponding GPS …",
+        "link": "https://link.springer.com/article/10.1007/s00138-025-01679-8",
+        "result_id": "pdwS2Lk8Z4oJ"
+    },
+    {
+        "title": "Pothole detection in the woods: a deep learning approach for forest road surface monitoring with dashcams",
+        "publication_info": {
+            "summary": "M Hoseini, S Puliti, S Hoffmann… - International Journal of …, 2024 - Taylor & Francis",
+            "authors": [
+                {
+                    "name": "M Hoseini",
+                    "link": "https://scholar.google.com/citations?user=eTcJ4eoAAAAJ&hl=en&oi=sra",
+                    "author_id": "eTcJ4eoAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=eTcJ4eoAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "S Puliti",
+                    "link": "https://scholar.google.com/citations?user=mrysxWoAAAAJ&hl=en&oi=sra",
+                    "author_id": "mrysxWoAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mrysxWoAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "S Hoffmann",
+                    "link": "https://scholar.google.com/citations?user=fCeHk8UAAAAJ&hl=en&oi=sra",
+                    "author_id": "fCeHk8UAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fCeHk8UAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… and trained to detect and track potholes in the videos captured by vehicle-mounted cameras. For … approach based on smartphone and tablet images was able to detect only waterlogged …",
+        "link": "https://www.tandfonline.com/doi/abs/10.1080/14942119.2023.2290795",
+        "result_id": "YGjIhs2i40AJ"
+    },
+    {
+        "title": "Navigating the path: Deep neural networks for accurate pothole and road quality detection",
+        "publication_info": {
+            "summary": "J Jadhav, R Papalkar, P Morey, S Dash… - Artificial Intelligence …, 2024 - api.taylorfrancis.com",
+            "authors": [
+                {
+                    "name": "J Jadhav",
+                    "link": "https://scholar.google.com/citations?user=rmJpmWsAAAAJ&hl=en&oi=sra",
+                    "author_id": "rmJpmWsAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rmJpmWsAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "R Papalkar",
+                    "link": "https://scholar.google.com/citations?user=qWNttWUAAAAJ&hl=en&oi=sra",
+                    "author_id": "qWNttWUAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qWNttWUAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "P Morey"
+                },
+                {
+                    "name": "S Dash",
+                    "link": "https://scholar.google.com/citations?user=qACnIGkAAAAJ&hl=en&oi=sra",
+                    "author_id": "qACnIGkAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qACnIGkAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "snippet": "… use their smartphones to report potholes, providing GPS locations … and road quality assessment heavily rely on cameras, … In summary, the pothole detection project not only aids Public …",
+        "link": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/9781003510833-82&type=chapterpdf",
+        "result_id": "XrN2ngmJTywJ"
+    }
+]

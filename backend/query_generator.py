@@ -3,40 +3,63 @@ from idea_analyzer import analyze_idea
 
 def generate_patent_queries(idea):
     """
-    Generate concise and focused patent search queries
-    from the analyzed technology idea.
+    Generate generic patent search queries from the
+    structured idea analysis.
     """
 
     analysis = analyze_idea(idea)
 
+    core_concept = analysis["core_concept"]
+    actions = analysis["actions"]
+    contexts = analysis["contexts"]
     technologies = analysis["technologies"]
-    components = analysis["components"]
-    domains = analysis["domains"]
 
     queries = []
 
-    # Core concept
-    queries.append("pothole detection")
+    # 1. Core concept
+    if core_concept:
+        queries.append(core_concept)
 
-    # Technology-focused
-    if "computer vision" in technologies:
-        queries.append("pothole detection computer vision")
+    # 2. Core concept + action
+    if core_concept:
+        for action in actions:
+            queries.append(
+                f"{core_concept} {action}"
+            )
 
-    if "machine learning" in technologies:
-        queries.append("pothole detection machine learning")
+    # 3. Core concept + technology
+    if core_concept:
+        for technology in technologies:
+            queries.append(
+                f"{core_concept} {technology}"
+            )
 
-    # Device / component-focused
-    if "smartphone" in technologies:
-        queries.append("pothole detection smartphone")
+    # 4. Core concept + context
+    if core_concept:
+        for context in contexts:
+            queries.append(
+                f"{core_concept} {context}"
+            )
 
-    if "gps" in technologies:
-        queries.append("pothole detection GPS")
+    # 5. Core concept + action + technology
+    if core_concept:
+        for action in actions:
+            for technology in technologies:
+                queries.append(
+                    f"{core_concept} {action} {technology}"
+                )
+
+    # 6. Original idea
+    queries.append(idea)
 
     # Remove duplicates
     unique_queries = []
 
     for query in queries:
-        if query not in unique_queries:
+
+        query = query.strip()
+
+        if query and query not in unique_queries:
             unique_queries.append(query)
 
     return unique_queries
@@ -44,12 +67,31 @@ def generate_patent_queries(idea):
 
 if __name__ == "__main__":
 
-    idea = "AI system for detecting potholes using smartphone camera and GPS"
+    test_ideas = [
 
-    queries = generate_patent_queries(idea)
+        "AI system for detecting potholes using smartphone camera and GPS",
 
-    print("\nGenerated Patent Search Queries:")
-    print("=" * 60)
+        "AI system for detecting crop diseases from leaf images",
 
-    for i, query in enumerate(queries, start=1):
-        print(f"{i}. {query}")
+        "Smartphone application for translating Indian Sign Language",
+
+        "AI system that predicts battery degradation in electric vehicles",
+
+    ]
+
+    for idea in test_ideas:
+
+        print("\n" + "=" * 70)
+        print("IDEA:")
+        print(idea)
+        print("=" * 70)
+
+        queries = generate_patent_queries(idea)
+
+        print("\nGenerated Patent Search Queries:")
+
+        for i, query in enumerate(
+            queries,
+            start=1
+        ):
+            print(f"{i}. {query}")

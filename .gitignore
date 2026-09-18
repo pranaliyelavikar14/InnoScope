@@ -3,3 +3,4 @@
 __pycache__/
 *.pyc
 data/patent_cache/
+data/landscape_result.json
